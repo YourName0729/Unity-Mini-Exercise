@@ -296,8 +296,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 2862697179746217140, guid: a3c586ea546255842b447c1d54354006, type: 3}
-  _initNumber: 40
-  _updateNumber: 2
+  _initNumber: 100
+  _updateNumber: 5
   leftWall: {fileID: 1748201553}
   rightWall: {fileID: 1363628142}
   upperWall: {fileID: 276208270}
