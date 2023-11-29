@@ -74,7 +74,7 @@ public class BallCreater : MonoBehaviour
             Collider[] colliders = Physics.OverlapSphere(pos, rBall);
             hitCount = colliders.Length;
             cnt++;
-        } while (hitCount >= 2 && cnt < 100);
+        } while (hitCount > 1 && cnt < 100);
 
         if (cnt == 100) Debug.LogError("No Space to Create Ball!");
         else
